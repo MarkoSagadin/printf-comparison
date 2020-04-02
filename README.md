@@ -2,7 +2,7 @@
 Example project where we can see comparison between different implementations of printf function. Project is prepared to compile for stm32f767zi, but it can be easily changed to some other microcontroller by setting macro TARGET in projects Makefile. Openocd.cfg should also be changed accordingly.
 
 ## Initial setup
- 1. git clone --recurse-submodules https://github.com/MarkoSagadin/printf_comparison.git
+ 1. git clone --recurse-submodules https://github.com/MarkoSagadin/printf-comparison.git
  2. make -C libopencm3 # (Only needed once)
 
 ## Usual develop, flash cycle
